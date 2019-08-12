@@ -1,0 +1,11 @@
+Ztotal=((omega^2*L^2*R)/((R-omega^2*R*L*C)^2+omega^2*L^2))...
+    +1j*((R^2*omega*L-omega^3*R^2*L^2*C)/((R-omega^2*R*L*C)^2+omega^2*L^2))
+
+R=100
+omega = 1000
+L = 0.00000150
+C = 0.000009
+abs(Ztotal)
+angle(Ztotal)
+
+Ztotal2 = 1/((1/R+1j*(1/(L*omega)-C*omega)))
